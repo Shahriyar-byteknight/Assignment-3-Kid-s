@@ -1,0 +1,93 @@
+*{
+  background-color:whitesmoke;
+}
+.work-sans-quicksand {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Shared style */
+.display-flex{
+  display: flex;
+}
+/* Nav style */
+
+.nav-container{}
+.navbar{
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item{
+  list-style: none;
+}
+.nav-links{
+gap: 32px;
+}
+.nav-link{
+text-decoration: none;
+}
+.color-1{
+  color:orange ;
+}
+.color-2{
+  color: skyblue;
+}
+.color-3{
+  color:#05D4DF ;
+}
+.color-4{
+  color: #5D58EF;
+}
+.nav-button{
+  background-color: orange;
+  padding: 10px 60px;
+  color: white;
+font-weight: 500;
+font-size: 1.25rem;
+border-radius: 8px;
+border-style: none;
+}
+.navbar,.banner{
+  max-width:1160px ;
+  margin: 0 auto;
+}
+/* Banner style */
+.banner{
+  align-items: center;
+}
+.banner-container{}
+.banner-title{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+#empo{
+  color:orange ;
+}
+#vision{
+  color: skyblue;
+}
+.banner-description{
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+.banner-button{
+  color: white;
+  background-color: black;
+  padding: 10px 47px;
+  border-radius: 8px;
+}
+/* banner style End  */
+
+/* Curriculam Style */
+.standard{
+  ba
+}
+@media screen and (max-width:576px) {
+  .banner{
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+}
